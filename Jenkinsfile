@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     IMAGE = 'ghcr.io/abo1406/myhttpd-app'
-    GITHUB_TOKEN = credentials('github-token')
+    
   }
 
   stages {
